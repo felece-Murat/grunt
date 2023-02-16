@@ -12,6 +12,22 @@ npm install -g grunt-cli
 yarn add grunt-cli
 ```
 
+Grunt modülleri
+
+Grunt modüllerini indirmek için
+```bash
+npm install <modul-adi> --save-dev
+```
+komutu kullanılır.
+
+Grunt uglify modülünü indirmek için
+```bash
+npm install grunt-contrib-uglify --save-dev
+```
+komutu kullanılır.
+
+Grunt modüllerini NPM ile indirirken başında grunt olduğuna, Grunt geliştiricileri tarafından oluşturulan modüllerin ortasında contrib olduğuna ve modülün sonunda ise modülün kısa adının olduğuna dikkat edin.
+
 Projeye grunt eklediğimizde böyle görünür:
 
 ```json
